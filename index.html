@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Café De Peshawar</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .navbar-brand img {
+            max-width: 50px; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Make the image a circle */
+        }
+    </style>
+    <style>
+        .gray-heading {
+            background-color: rgb(136, 136, 201);
+        }
+    </style>
+    <style>
+        .red-btn {
+            background-color: #FF5733;
+            border-color: #FF5733;
+            color: white; /* Optionally, set text color to white for better visibility */
+        }
+    </style>
+    <style>
+        .custom-section {
+            background-color: #dbc8c8;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 30px rgba(0.1, 0.1, 0.1, 0.1); /* Increased spread radius to 20px */
+        } 
+    </style>
+    <style>
+        .about-section {
+            background-color: #f9f9f9; /* Set a background color */
+            padding: 50px; /* Add some padding for spacing */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+        }
+    
+        .about-section h2 {
+            color: #333; /* Set heading color */
+        }
+    
+        .about-section p {
+            color: #555; /* Set paragraph color */
+        }
+    </style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        .footer p {
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #ccc;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+    </style>
+    
+    
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="cafe logo.png" alt="Café De Peshawar">
+                <span style="font-weight:bold;">Peshawar</span> <span style="color: red;">Cafe</span>  
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section - Welcome -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><span style="font-weight: bold;">Welcome to Café De</span>  Peshawar</h1>
+                <p>Enjoy the best flavors of Peshawar in a cozy atmosphere.</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Add an image or slideshow here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section - Menu -->
+    <section class="container my-5 custom-section">
+    <div class="row">
+        <!-- Menu 1 -->
+        <!-- ... (Existing Menu Code) ... -->
+
+        <!-- Menu 2 -->
+        <div class="col-md-4">
+            <h2 class="gray-heading">Dessert Menu</h2>
+            <ul class="menu-list">
+                <li>
+                    <span class="item-name">Chocolate Cake</span>
+                    <span class="item-price">$6.99</span>
+                </li>
+                <li>
+                    <span class="item-name">Cheesecake</span>
+                    <span class="item-price">$7.99</span>
+                </li>
+                <li>
+                    <span class="item-name">Tiramisu</span>
+                    <span class="item-price">$8.99</span>
+                </li>
+            </ul>
+            <button class="order-btn red-btn" data-menu="dessert">Order</button>
+        </div>
+
+        <!-- Menu 3 -->
+        <div class="col-md-4">
+            <h2 class="gray-heading">Beverage Menu</h2>
+            <ul class="menu-list">
+                <li>
+                    <span class="item-name">Cappuccino</span>
+                    <span class="item-price">$4.99</span>
+                </li>
+                <li>
+                    <span class="item-name">Iced Tea</span>
+                    <span class="item-price">$3.99</span>
+                </li>
+                <li>
+                    <span class="item-name">Smoothie</span>
+                    <span class="item-price">$5.99</span>
+                </li>
+            </ul>
+            <button class="order-btn red-btn" data-menu="dessert">Order</button>
+        </div>
+        <!-- Menu 4 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Vegetarian Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Vegetarian Pasta</span>
+            <span class="item-price">$8.99</span>
+        </li>
+        <li>
+            <span class="item-name">Caprese Salad</span>
+            <span class="item-price">$6.99</span>
+        </li>
+        <li>
+            <span class="item-name">Mushroom Risotto</span>
+            <span class="item-price">$9.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+<!-- Menu 5 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Seafood Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Grilled Salmon</span>
+            <span class="item-price">$12.99</span>
+        </li>
+        <li>
+            <span class="item-name">Shrimp Scampi</span>
+            <span class="item-price">$14.99</span>
+        </li>
+        <li>
+            <span class="item-name">Lobster Bisque</span>
+            <span class="item-price">$10.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+<!-- Menu 6 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Pizza Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Margherita Pizza</span>
+            <span class="item-price">$10.99</span>
+        </li>
+        <li>
+            <span class="item-name">Pepperoni Pizza</span>
+            <span class="item-price">$11.99</span>
+        </li>
+        <li>
+            <span class="item-name">Vegetarian Pizza</span>
+            <span class="item-price">$9.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+<!-- Menu 7 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Salad Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Greek Salad</span>
+            <span class="item-price">$7.99</span>
+        </li>
+        <li>
+            <span class="item-name">Caesar Salad</span>
+            <span class="item-price">$6.99</span>
+        </li>
+        <li>
+            <span class="item-name">Cobb Salad</span>
+            <span class="item-price">$8.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+<!-- Menu 8 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Asian Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Sushi Rolls</span>
+            <span class="item-price">$13.99</span>
+        </li>
+        <li>
+            <span class="item-name">Pad Thai</span>
+            <span class="item-price">$11.99</span>
+        </li>
+        <li>
+            <span class="item-name">Teriyaki Chicken</span>
+            <span class="item-price">$12.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+<!-- Menu 9 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Mexican Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Tacos</span>
+            <span class="item-price">$8.99</span>
+        </li>
+        <li>
+            <span class="item-name">Enchiladas</span>
+            <span class="item-price">$9.99</span>
+        </li>
+        <li>
+            <span class="item-name">Guacamole</span>
+            <span class="item-price">$6.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+<!-- Menu 10 -->
+<div class="col-md-4">
+    <h2 class="gray-heading">Italian Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <span class="item-name">Spaghetti Carbonara</span>
+            <span class="item-price">$10.99</span>
+        </li>
+        <li>
+            <span class="item-name">Margherita Pizza</span>
+            <span class="item-price">$9.99</span>
+        </li>
+        <li>
+            <span class="item-name">Tiramisu</span>
+            <span class="item-price">$7.99</span>
+        </li>
+    </ul>
+    <button class="order-btn red-btn" data-menu="dessert">Order</button>
+</div>
+
+    </div>
+</section>
+
+
+    <!-- Content Section - About Us -->
+    <section class="container my-5 about-section" id="about">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>Welcome to Café De Peshawar, where every cup tells a story. Our journey began with a simple idea: to create a space where tradition and innovation coexist harmoniously. Steeped in the rich cultural heritage of Peshawar, we aim to provide not just a café, but an experience.</p>
+                <p>Our mission is to serve more than just coffee. We're here to serve a slice of history, a taste of tradition, and a sip of genuine hospitality. From our meticulously brewed beverages to our curated menu of local delicacies, every offering is a tribute to the vibrant tapestry of this city.</p>
+                <p>Step into Café De Peshawar, and you'll find more than just a place to indulge your taste buds. You'll find a piece of Peshawar's heart.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="cafe.jpg" alt="Café Interior" class="side-image" with="400" height="350">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Form -->
+    <!-- Footer -->
+    <div class="footer" id="contact">
+        <p>Contact Us</p>
+        <div class="contact-info">
+            <p>Email: 22940abdu@gmail.com</p>
+            <p>Phone: (92) 334-3519219</p>
+            <p>Address: 123 Main Street, Peshawar, Pakistan</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100087406156577&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+            <a href="https://whatsapp.com/channel/0029VaDaLeG3LdQRflvkhG25"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/abdulah_qurashii?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+            <!-- Add more social icons as needed -->
+            
+        </div>
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

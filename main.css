@@ -1,0 +1,58 @@
+/* Variables */
+/* Mixins */
+/* Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #3e3e3e;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Customize the color of the navbar toggler icon */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 0.5rem;
+}
+
+.container.my-5 {
+  text-align: center;
+}
+
+/* Additional Styles */
+.bg-light {
+  background-color: #f8f9fa; /* Define the light background color */
+}
+
+/* Customize Welcome Section */
+.container.my-5 h1 {
+  color: #ff5733;
+}
+
+/* Customize Menu Section */
+.bg-light.py-5 {
+  /* Add specific styles for the Menu section if needed */
+}
+
+/* Customize About Us Section */
+.container.my-5 h2 {
+  color: #ff5733;
+}
+
+/* Customize Contact Form Section */
+.bg-light.py-5 {
+  /* Add specific styles for the Contact Form section if needed */
+}
+
+/* Customize Footer */
+footer {
+  background-color: #3e3e3e;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
